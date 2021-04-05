@@ -40,7 +40,7 @@
         android:layout_marginTop="28dp"
         android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.04"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profile"
         app:srcCompat="@drawable/dash_tab_right" />
@@ -56,4 +56,58 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buddies"
         app:srcCompat="@drawable/dash_tab_right" />
+
+    <TextView
+        android:id="@+id/profileView"
+        android:layout_width="144dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="68dp"
+        android:background="#00FFFFFF"
+        android:text="profile"
+        android:textSize="45"
+        app:layout_constraintEnd_toEndOf="@+id/profile"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profile" />
+
+    <TextView
+        android:id="@+id/profileView2"
+        android:layout_width="193dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="68dp"
+        android:background="#00FFFFFF"
+        android:text="buddies"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buddies" />
+
+    <TextView
+        android:id="@+id/profileView4"
+        android:layout_width="240dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="68dp"
+        android:background="#00FFFFFF"
+        android:text="messages"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/messages" />
+
+    <TextView
+        android:id="@+id/profileView3"
+        android:layout_width="193dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="68dp"
+        android:background="#00FFFFFF"
+        android:text="workouts"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/workouts" />
 </androidx.constraintlayout.widget.ConstraintLayout>
