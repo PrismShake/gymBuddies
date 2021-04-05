@@ -6,4 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".tabActivity">
 
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="354dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dash_tab_left" />
+
+    <ImageView
+        android:id="@+id/buddies"
+        android:layout_width="354dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workouts"
+        app:srcCompat="@drawable/dash_tab_left" />
+
+    <ImageView
+        android:id="@+id/workouts"
+        android:layout_width="354dp"
+        android:layout_height="217dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="28dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile"
+        app:srcCompat="@drawable/dash_tab_right" />
+
+    <ImageView
+        android:id="@+id/messages"
+        android:layout_width="354dp"
+        android:layout_height="217dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="28dp"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buddies"
+        app:srcCompat="@drawable/dash_tab_right" />
 </androidx.constraintlayout.widget.ConstraintLayout>
